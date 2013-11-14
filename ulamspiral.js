@@ -1,4 +1,4 @@
-//(function() {
+(function() {
 	/*
 		Ulam Spiral Generator
 		By: Zachary Cava
@@ -142,4 +142,4 @@
 			num++;
 		}
 	}
-//})();
+})();
