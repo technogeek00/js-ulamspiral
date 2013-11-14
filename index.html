@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ulam Spiral</title>
+		<script type="text/javascript" src="ulamspiral.js"></script>
+		<link rel="stylesheet" href="ulamspiral.css" type="text/css"/>
+	</head>
+	<body>
+		<h1>The Ulam Spiral</h1>
+		<p>Lets face it, primes are some of the most fascinating numbers out there. In 1963 a mathematician by the name Stanislaw Ulam 
+			was very bored at a scientific meeting and doodling in his notebook, he noticed that starting from the center with 1 and 
+			working counter clockwise out writing the next number along the edges of squares, primes had a strong tendency to appear 
+			on diagonals. You can read more about it on <a href="http://en.wikipedia.org/wiki/Ulam_spiral">wikipedia</a>, but here is a 
+			Ulam Spiral, the black dots are primes, red is the center. <strong>Be careful</strong> with max primes, at the max (500000) it can crash some computers.
+		</p>
+		<div id="controls">
+			<label>Scale: <input id="scale" type="range" min="1" max="20" value="2"/></label>
+			<label>Primes Up To: <input id="primeMax" type="range" min="1000" max="500000" value="100000" steps="1000"></label>
+		</div>
+		<canvas id="theCanvas" width="400" height="400">It looks like you don't support canvas, please try a modern browser</canvas>
+	</body>
+</html>
